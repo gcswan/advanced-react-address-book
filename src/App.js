@@ -8,6 +8,7 @@ function App(props) {
   return (
     <div>
       <ListOfUsers users={props.users} />
+      <UserDetail users={props.users} />
     </div>
   );
 }
